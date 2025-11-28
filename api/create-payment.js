@@ -1,8 +1,6 @@
 import axios from 'axios';
 import { v4 as uuidv4 } from 'uuid';
 
-// 1. БАЗА ДАННЫХ ТОВАРОВ (из App.jsx)
-// Ключи (ids) должны совпадать с тем, что приходит с фронта (theme)
 const BOX_DATA = {
   techno: {
     title: "ТЕХНО БОКС",
